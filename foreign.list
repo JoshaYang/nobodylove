@@ -13,7 +13,7 @@ host-suffix,prod.hjholdings.tv,Hulu-Japan
 host-suffix,streaks.jp,Hulu-Japan
 host-suffix,yb.uncn.jp,Hulu-Japan
 host-suffix,yahoo.co.jp,Hulu-Japan 
-# > iQiyi International
+# iQiyi International
 user-agent,iQIYI*,iQiyi-Intl
 user-agent,QYPlayer*,iQiyi-Intl
 host,intel-cache.m.iqiyi.com,iQiyi-Intl
@@ -393,7 +393,7 @@ host-suffix,prod.hjholdings.tv,Hulu-Japan
 host-suffix,streaks.jp,Hulu-Japan
 host-suffix,yb.uncn.jp,Hulu-Japan
 host-suffix,yahoo.co.jp,Hulu-Japan 
-# > iQiyi International
+# iQiyi International
 user-agent,iQIYI*,iQiyi-Intl
 user-agent,QYPlayer*,iQiyi-Intl
 host,intel-cache.m.iqiyi.com,iQiyi-Intl
