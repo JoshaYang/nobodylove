@@ -5,15 +5,17 @@ host-suffix,hulu.hb.omtrdc.net,Hulu
 host-suffix,hulu.sc.omtrdc.net,Hulu
 host-suffix,huluad.com,Hulu
 host-suffix,huluim.com,Hulu
-host-suffix,hulustream.com,Hulu 
+host-suffix,hulustream.com,Hulu
+
 # Hulu-Japan(フールー)
 host-suffix,happyon.jp,Hulu-Japan
 host-suffix,hulu.jp,Hulu-Japan
 host-suffix,prod.hjholdings.tv,Hulu-Japan
 host-suffix,streaks.jp,Hulu-Japan
 host-suffix,yb.uncn.jp,Hulu-Japan
-host-suffix,yahoo.co.jp,Hulu-Japan 
-# iQiyi International
+host-suffix,yahoo.co.jp,Hulu-Japan
+
+# > iQiyi International
 user-agent,iQIYI*,iQiyi-Intl
 user-agent,QYPlayer*,iQiyi-Intl
 host,intel-cache.m.iqiyi.com,iQiyi-Intl
@@ -28,12 +30,14 @@ ip-cidr,23.40.242.10/32,iQiyi-Intl
 ip-cidr,103.44.56.0/22,iQiyi-Intl
 ip-cidr,118.26.120.0/24,iQiyi-Intl
 ip-cidr,118.26.32.0/23,iQiyi-Intl
-ip-cidr,223.119.62.225/28,iQiyi-Intl 
+ip-cidr,223.119.62.225/28,iQiyi-Intl
+
 # ITV
 user-agent,ITV_Player*,ITV
 host-suffix,itv.com,ITV
 host-suffix,itvstatic.com,ITV
-host,itvpnpmobile-a.akamaihd.net,ITV 
+host,itvpnpmobile-a.akamaihd.net,ITV
+
 # > Japonx
 host-keyword,japonx,Japonx
 host-keyword,japronx,Japonx
@@ -44,29 +48,35 @@ host-suffix,japonx.vip,Japonx
 host-suffix,japronx.com,Japonx
 host-suffix,japronx.tv,Japonx
 host-suffix,japronx.net,Japonx
-host-suffix,japronx.vip,Japonx 
+host-suffix,japronx.vip,Japonx
+
 # JOOX
 user-agent,WeMusic*,JOOX
 user-agent,JOOX*,JOOX
-host-suffix,joox.com,JOOX 
+host-suffix,joox.com,JOOX
+
 # KKBOX
 host-suffix,kkbox.com,KKBOX
 host-suffix,kkbox.com.tw,KKBOX
-host-suffix,kfs.io,KKBOX 
+host-suffix,kfs.io,KKBOX
+
 # KKTV
 user-agent,KKTV*,KKTV
 user-agent,com.kktv.ios.kktv*,KKTV
 host-suffix,kktv.com.tw,KKTV
 host-suffix,kktv.me,KKTV
-host,kktv-theater.kk.stream,KKTV 
+host,kktv-theater.kk.stream,KKTV
+
 # LineTV
 #user-agent,LINE%20TV*,LineTV
 host-suffix,linetv.tw,LineTV
 host,d3c7rimkq79yfu.cloudfront.net,LineTV
-host-suffix,profile.line-scdn.net,LineTV 
+host-suffix,profile.line-scdn.net,LineTV
+
 # LiTV
 host-suffix,litv.tv,LiTV
-host,litvfreemobile-hichannel.cdn.hinet.net,LiTV 
+host,litvfreemobile-hichannel.cdn.hinet.net,LiTV
+
 # Netflix
 # 请注意，导入此规则将自动创建名为[Netflix]的策略组
 user-agent,Argo*,Netflix
@@ -143,21 +153,25 @@ ip-cidr,203.198.80.0/21,Netflix
 ip-cidr,207.45.72.0/22,Netflix
 ip-cidr,208.75.72.0/21,Netflix
 ip-cidr,218.102.32.0/19,Netflix
- 
+
 # Pandora
 user-agent,Pandora*,Pandora
-host-suffix,pandora.com,Pandora 
+host-suffix,pandora.com,Pandora
+
 # PBS
 user-agent,PBS*,PBS
-host-suffix,pbs.org,PBS 
+host-suffix,pbs.org,PBS
+
 # Pornhub
 host-suffix,phncdn.com,Pornhub
 host-suffix,pornhub.com,Pornhub
-host-suffix,pornhubpremium.com,Pornhub 
+host-suffix,pornhubpremium.com,Pornhub
+
 # > SoundCloud
 # - user-agent,SoundCloud*,GlobalTV
 host-suffix,sndcdn.com,GlobalTV
-host-suffix,soundcloud.com,GlobalTV 
+host-suffix,soundcloud.com,GlobalTV
+
 # > Spotify
 # 请注意，导入此规则将自动创建名为[Spotify]的策略组
 user-agent,Spotify*,Spotify
@@ -169,16 +183,19 @@ host-suffix,spotify.com,Spotify
 host-suffix,spotifycdn.net,Spotify
 ip-cidr,35.186.224.47/32,Spotify
 # 直连修复
-host-suffix,ap.spotify.com,DIRECT 
+host-suffix,ap.spotify.com,DIRECT
+
 # TIDAL
 user-agent,TIDAL*dia,TIDAL
-host-suffix,tidal.comdia,TIDAL 
+host-suffix,tidal.comdia,TIDAL
+
 # TikTok
 user-agent,TikTok*,TikTok
 host-suffix,musical.ly,TikTok
 host-suffix,tiktokv.com,TikTok
 host-suffix,tiktokcdn.com,TikTok
-host-keyword,-tiktokcdn-com,TikTok 
+host-keyword,-tiktokcdn-com,TikTok
+
 # TVB
 user-agent,mytv*,TVB
 user-agent,OTT_iPhone*,TVB
@@ -206,11 +223,12 @@ host-suffix,segment.com,TVB
 host-suffix,nqs.nice264.com,TVB
 host-suffix,viu.com,TVB
 host-suffix,viu.tv,TVB
- 
+
 # Twitch
 host-suffix,twitch.tv,Twitch
 host-suffix,twitchcdn.net,Twitch
-host-suffix,ttvnw.net,Twitch 
+host-suffix,ttvnw.net,Twitch
+
 # ViuTV
 user-agent,Viu*,ViuTV
 user-agent,ViuTV*,ViuTV
@@ -219,11 +237,13 @@ host-suffix,viu.tv,ViuTV
 host,api.viu.now.com,ViuTV
 host,d1k2us671qcoau.cloudfront.net,ViuTV
 host,d2anahhhmp1ffz.cloudfront.net,ViuTV
-host,dfp6rglgjqszk.cloudfront.net,ViuTV 
-﻿# > WeTV
+host,dfp6rglgjqszk.cloudfront.net,ViuTV
+
+# > WeTV
 user-agent,WeTV*,WeTV
 host-suffix,wetv.vip,WeTV
-host-suffix,wetvinfo.com,WeTV 
+host-suffix,wetvinfo.com,WeTV
+
 # YouTube部分
 //请注意，导入此规则将自动创建名为[YouTube]的策略组
 user-agent,com.google.ios.youtube*,YouTube
@@ -231,7 +251,7 @@ user-agent,YouTube*,YouTube
 host-suffix,googlevideo.com,YouTube
 host-suffix,youtube.com,YouTube
 host,youtubei.googleapis.com,YouTube
- 
+
 # AbemaTV
 user-agent,AbemaTV*,AbemaTV
 host-suffix,abema.io,AbemaTV
@@ -240,11 +260,13 @@ host-suffix,hayabusa.io,AbemaTV
 host,abematv.akamaized.net,AbemaTV
 host,ds-linear-abematv.akamaized.net,AbemaTV
 host,ds-vod-abematv.akamaized.net,AbemaTV
-host,linear-abematv.akamaized.net,AbemaTV 
+host,linear-abematv.akamaized.net,AbemaTV
+
 # All4
 user-agent,All4*,All4
 host-suffix,c4assets.com,All4
-host-suffix,channel4.com,All4 
+host-suffix,channel4.com,All4
+
 # Amazon Prime Video
 user-agent,InstantVideo.US*,AmazonPrime
 user-agent,Prime%20Video*,AmazonPrime
@@ -260,17 +282,20 @@ host-suffix,media-amazon.com,AmazonPrime
 host-suffix,primevideo.com,AmazonPrime
 host-suffix,media-amazon.com,AmazonPrime
 host,atv-ps.amazon.com,AmazonPrime
-host,fls-na.amazon.com,AmazonPrime 
+host,fls-na.amazon.com,AmazonPrime
+
 # > Apple TV
 host,np-edge.itunes.apple.com,AppleTV
 host,play-edge.itunes.apple.com,AppleTV
-host-suffix,tv.apple.com,AppleTV 
+host-suffix,tv.apple.com,AppleTV
+
 # Bahamut
 user-agent,Anime*,Bahamut
 host-suffix,bahamut.com.tw,Bahamut
 host-suffix,gamer.com.tw,Bahamut
 host,gamer-cds.cdn.hinet.net,Bahamut
-host,gamer2-cds.cdn.hinet.net,Bahamut 
+host,gamer2-cds.cdn.hinet.net,Bahamut
+
 # BBC
 user-agent,BBC*,BBC
 user-agent,BBCBeacon*,BBC
@@ -280,7 +305,7 @@ host-suffix,bbc.com,BBC
 host-suffix,bbc.co.uk,BBC
 host-suffix,bbci.co.uk,BBC
 host-suffix,vod-hls-uk-live.akamaized.net,BBC
- 
+
 # DAZN
 user-agent,DAZN*,DAZN
 host-suffix,d151l6v8er5bdm.cloudfront.net,DAZN
@@ -291,11 +316,13 @@ host-suffix,dazndn.com,DAZN
 host-suffix,indazn.com,DAZN
 host-suffix,indaznlab.com,DAZN
 host-keyword,voddazn,DAZN
-host-keyword,livedazn,DAZN 
+host-keyword,livedazn,DAZN
+
 # Deezer
 user-agent,Deezer*,Deezer
 host-suffix,deezer.com,Deezer
-host-suffix,dzcdn.net,Deezer 
+host-suffix,dzcdn.net,Deezer
+
 # > Disney Plus
 user-agent,Disney*,DisneyPlus
 user-agent,DPlus*,DisneyPlus
@@ -327,7 +354,8 @@ host-suffix,getblueshift.com,DisneyPlus
 host-suffix,litix.io,DisneyPlus
 host-suffix,mobile-collector.newrelic.com,DisneyPlus
 host-suffix,uplynk.com,DisneyPlus
-host-suffix,js-agent.newrelic.com,DisneyPlus 
+host-suffix,js-agent.newrelic.com,DisneyPlus
+
 # Fox + (Now)
 user-agent,FOX%20NOW*,Fox
 user-agent,FOXPlus*,Fox
@@ -347,7 +375,7 @@ host-suffix,mstage.io,Fox
 host-suffix,now.com,Fox
 host-suffix,theplatform.com,Fox
 host-suffix,urlload.net,Fox
- 
+
 # HBO NOW(GO)
 user-agent,HBO%20NOW*,HBO
 user-agent,HBOAsia*,HBO
@@ -377,388 +405,3 @@ host-suffix,hbogoasia.com,HBO
 host-suffix,hbogoasia.hk,HBO
 host-suffix,manifest.prod.boltdns.net,HBO
 host-suffix,s3-ap-southeast-1.amazonaws.com,HBO
- 
-# Hulu
-host-suffix,cws-hulu.conviva.com,Hulu
-host-suffix,hulu.com,Hulu
-host-suffix,hulu.hb.omtrdc.net,Hulu
-host-suffix,hulu.sc.omtrdc.net,Hulu
-host-suffix,huluad.com,Hulu
-host-suffix,huluim.com,Hulu
-host-suffix,hulustream.com,Hulu 
-# Hulu-Japan(フールー)
-host-suffix,happyon.jp,Hulu-Japan
-host-suffix,hulu.jp,Hulu-Japan
-host-suffix,prod.hjholdings.tv,Hulu-Japan
-host-suffix,streaks.jp,Hulu-Japan
-host-suffix,yb.uncn.jp,Hulu-Japan
-host-suffix,yahoo.co.jp,Hulu-Japan 
-# iQiyi International
-user-agent,iQIYI*,iQiyi-Intl
-user-agent,QYPlayer*,iQiyi-Intl
-host,intel-cache.m.iqiyi.com,iQiyi-Intl
-host,intel-cache.video.iqiyi.com,iQiyi-Intl
-host,intl-rcd.iqiyi.com,iQiyi-Intl
-host,intl-subscription.iqiyi.com,iQiyi-Intl
-host-suffix,inter.ptqy.gitv.tv,iQiyi-Intl
-host-suffix,intl.iqiyi.com,iQiyi-Intl
-host-suffix,iq.com,iQiyi-Intl
-ip-cidr,23.40.241.251/32,iQiyi-Intl
-ip-cidr,23.40.242.10/32,iQiyi-Intl
-ip-cidr,103.44.56.0/22,iQiyi-Intl
-ip-cidr,118.26.120.0/24,iQiyi-Intl
-ip-cidr,118.26.32.0/23,iQiyi-Intl
-ip-cidr,223.119.62.225/28,iQiyi-Intl 
-# ITV
-user-agent,ITV_Player*,ITV
-host-suffix,itv.com,ITV
-host-suffix,itvstatic.com,ITV
-host,itvpnpmobile-a.akamaihd.net,ITV 
-# > Japonx
-host-keyword,japonx,Japonx
-host-keyword,japronx,Japonx
-host-suffix,japonx.com,Japonx
-host-suffix,japonx.tv,Japonx
-host-suffix,japonx.net,Japonx
-host-suffix,japonx.vip,Japonx
-host-suffix,japronx.com,Japonx
-host-suffix,japronx.tv,Japonx
-host-suffix,japronx.net,Japonx
-host-suffix,japronx.vip,Japonx 
-# JOOX
-user-agent,WeMusic*,JOOX
-user-agent,JOOX*,JOOX
-host-suffix,joox.com,JOOX 
-# KKBOX
-host-suffix,kkbox.com,KKBOX
-host-suffix,kkbox.com.tw,KKBOX
-host-suffix,kfs.io,KKBOX 
-# KKTV
-user-agent,KKTV*,KKTV
-user-agent,com.kktv.ios.kktv*,KKTV
-host-suffix,kktv.com.tw,KKTV
-host-suffix,kktv.me,KKTV
-host,kktv-theater.kk.stream,KKTV 
-# LineTV
-#user-agent,LINE%20TV*,LineTV
-host-suffix,linetv.tw,LineTV
-host,d3c7rimkq79yfu.cloudfront.net,LineTV
-host-suffix,profile.line-scdn.net,LineTV 
-# LiTV
-host-suffix,litv.tv,LiTV
-host,litvfreemobile-hichannel.cdn.hinet.net,LiTV 
-# Netflix
-# 请注意，导入此规则将自动创建名为[Netflix]的策略组
-user-agent,Argo*,Netflix
-host-keyword,netflix,Netflix
-host-keyword,nflx,Netflix
-host-keyword,dualstack.apiproxy-,Netflix
-host-keyword,dualstack.ichnaea-web-,Netflix
-host-suffix,netflix.com.edgesuite.net,Netflix
-host-suffix,netflix.com,Netflix
-host-suffix,netflix.net,Netflix
-host-suffix,nflxext.com,Netflix
-host-suffix,nflximg.com,Netflix
-host-suffix,nflximg.net,Netflix
-host-suffix,nflxso.net,Netflix
-host-suffix,nflxvideo.net,Netflix
-host-suffix,netflixdnstest0.com,Netflix
-host-suffix,netflixdnstest1.com,Netflix
-host-suffix,netflixdnstest2.com,Netflix
-host-suffix,netflixdnstest3.com,Netflix
-host-suffix,netflixdnstest4.com,Netflix
-host-suffix,netflixdnstest5.com,Netflix
-host-suffix,netflixdnstest6.com,Netflix
-host-suffix,netflixdnstest7.com,Netflix
-host-suffix,netflixdnstest8.com,Netflix
-host-suffix,netflixdnstest9.com,Netflix
-ip-cidr,8.41.4.0/24,Netflix
-ip-cidr,23.78.0.0/16,Netflix
-ip-cidr,23.246.0.0/16,Netflix
-ip-cidr,34.192.0.0/16,Netflix
-ip-cidr,34.208.0.0/12,Netflix
-ip-cidr,35.160.0.0/13,Netflix
-ip-cidr,37.77.0.0/16,Netflix
-ip-cidr,38.72.126.0/24,Netflix
-ip-cidr,44.224.0.0/16,Netflix
-ip-cidr,44.230.0.0/16,Netflix
-ip-cidr,45.57.0.0/16,Netflix
-ip-cidr,52.0.0.0/15,Netflix
-ip-cidr,52.10.0.0/15,Netflix
-ip-cidr,52.12.0.0/15,Netflix
-ip-cidr,52.22.0.0/16,Netflix
-ip-cidr,52.24.0.0/14,Netflix
-ip-cidr,52.32.0.0/14,Netflix
-ip-cidr,52.40.0.0/14,Netflix
-ip-cidr,52.5.0.0/16,Netflix
-ip-cidr,52.54.0.0/16,Netflix
-ip-cidr,52.7.0.0/16,Netflix
-ip-cidr,52.71.0.0/16,Netflix
-ip-cidr,52.72.0.0/16,Netflix
-ip-cidr,52.88.0.0/15,Netflix
-ip-cidr,54.0.0.0/16,Netflix
-ip-cidr,54.148.0.0/15,Netflix
-ip-cidr,54.175.0.0/16,Netflix
-ip-cidr,54.186.0.0/15,Netflix
-ip-cidr,54.188.0.0/15,Netflix
-ip-cidr,54.213.0.0/16,Netflix
-ip-cidr,54.214.128.0/17,Netflix
-ip-cidr,54.68.0.0/15,Netflix
-ip-cidr,54.85.0.0/16,Netflix
-ip-cidr,54.86.0.0/16,Netflix
-ip-cidr,64.120.128.0/17,Netflix
-ip-cidr,66.197.128.0/17,Netflix
-ip-cidr,69.53.224.0/19,Netflix
-ip-cidr,103.87.204.0/22,Netflix
-ip-cidr,108.175.0.0/16,Netflix
-ip-cidr,185.2.0.0/16,Netflix
-ip-cidr,185.9.0.0/16,Netflix
-ip-cidr,192.173.64.0/18,Netflix
-ip-cidr,198.38.96.0/19,Netflix
-ip-cidr,198.45.48.0/20,Netflix
-ip-cidr,203.75.84.0/24,Netflix
-ip-cidr,203.83.220.0/22,Netflix
-ip-cidr,203.198.0.0/20,Netflix
-ip-cidr,203.198.80.0/21,Netflix
-ip-cidr,207.45.72.0/22,Netflix
-ip-cidr,208.75.72.0/21,Netflix
-ip-cidr,218.102.32.0/19,Netflix
- 
-# Pandora
-user-agent,Pandora*,Pandora
-host-suffix,pandora.com,Pandora 
-# PBS
-user-agent,PBS*,PBS
-host-suffix,pbs.org,PBS 
-# Pornhub
-host-suffix,phncdn.com,Pornhub
-host-suffix,pornhub.com,Pornhub
-host-suffix,pornhubpremium.com,Pornhub 
-# > SoundCloud
-# - user-agent,SoundCloud*,GlobalTV
-host-suffix,sndcdn.com,GlobalTV
-host-suffix,soundcloud.com,GlobalTV 
-# > Spotify
-# 请注意，导入此规则将自动创建名为[Spotify]的策略组
-user-agent,Spotify*,Spotify
-host-suffix,pscdn.co,Spotify
-host-suffix,scdn.co,Spotify
-host-suffix,spotify.com,Spotify
-host-suffix,spoti.fi,Spotify
-host-suffix,spotify.com,Spotify
-host-suffix,spotifycdn.net,Spotify
-ip-cidr,35.186.224.47/32,Spotify
-# 直连修复
-host-suffix,ap.spotify.com,DIRECT 
-# TIDAL
-user-agent,TIDAL*dia,TIDAL
-host-suffix,tidal.comdia,TIDAL 
-# TikTok
-user-agent,TikTok*,TikTok
-host-suffix,musical.ly,TikTok
-host-suffix,tiktokv.com,TikTok
-host-suffix,tiktokcdn.com,TikTok
-host-keyword,-tiktokcdn-com,TikTok 
-# TVB
-user-agent,mytv*,TVB
-user-agent,OTT_iPhone*,TVB
-user-agent,Viu*,TVB
-user-agent,TVB*,TVB
-user-agent,*nowe*,TVB
-user-agent,*PCCW*,TVB
-user-agent,*pccw*,TVB
-host,edge.api.brightcove.com,TVB
-host,bcbolt446c5271-a.akamaihd.net,TVB
-host-suffix,mytvsuper.com,TVB
-host-keyword,nowtv100,TVB
-host-keyword,rthklive,TVB
-host-suffix,TVB.com,TVB
-host-suffix,tvb.com,TVB
-host-suffix,bcbolthboa-a.akamaihd.net,TVB
-host-suffix,boltdns.net,TVB
-host-suffix,now.com,TVB
-host-suffix,nowe.com,TVB
-host-suffix,nowestatic.com,TVB
-host-suffix,youboranqs01.com,TVB
-host-suffix,emarsys.net,TVB
-host-suffix,api.segment.io,TVB
-host-suffix,segment.com,TVB
-host-suffix,nqs.nice264.com,TVB
-host-suffix,viu.com,TVB
-host-suffix,viu.tv,TVB
- 
-# Twitch
-host-suffix,twitch.tv,Twitch
-host-suffix,twitchcdn.net,Twitch
-host-suffix,ttvnw.net,Twitch 
-# ViuTV
-user-agent,Viu*,ViuTV
-user-agent,ViuTV*,ViuTV
-host-suffix,viu.com,ViuTV
-host-suffix,viu.tv,ViuTV
-host,api.viu.now.com,ViuTV
-host,d1k2us671qcoau.cloudfront.net,ViuTV
-host,d2anahhhmp1ffz.cloudfront.net,ViuTV
-host,dfp6rglgjqszk.cloudfront.net,ViuTV 
-﻿# > WeTV
-user-agent,WeTV*,WeTV
-host-suffix,wetv.vip,WeTV
-host-suffix,wetvinfo.com,WeTV 
-# YouTube部分
-//请注意，导入此规则将自动创建名为[YouTube]的策略组
-user-agent,com.google.ios.youtube*,YouTube
-user-agent,YouTube*,YouTube
-host-suffix,googlevideo.com,YouTube
-host-suffix,youtube.com,YouTube
-host,youtubei.googleapis.com,YouTube
- 
-# AbemaTV
-user-agent,AbemaTV*,AbemaTV
-host-suffix,abema.io,AbemaTV
-host-suffix,ameba.jp,AbemaTV
-host-suffix,hayabusa.io,AbemaTV
-host,abematv.akamaized.net,AbemaTV
-host,ds-linear-abematv.akamaized.net,AbemaTV
-host,ds-vod-abematv.akamaized.net,AbemaTV
-host,linear-abematv.akamaized.net,AbemaTV 
-# All4
-user-agent,All4*,All4
-host-suffix,c4assets.com,All4
-host-suffix,channel4.com,All4 
-# Amazon Prime Video
-user-agent,InstantVideo.US*,AmazonPrime
-user-agent,Prime%20Video*,AmazonPrime
-host-suffix,media-amazon.com,AmazonPrime
-host,atv-ps.amazon.com,AmazonPrime
-host,fls-na.amazon.com,AmazonPrime
-host-suffix,aiv-cdn.net,AmazonPrime
-host-suffix,amazonaws.com,AmazonPrime
-host-suffix,amazonvideo.com,AmazonPrime
-host-suffix,llnwd.net,AmazonPrime
-host-suffix,aiv-delivery.net,AmazonPrime
-host-suffix,media-amazon.com,AmazonPrime
-host-suffix,primevideo.com,AmazonPrime
-host-suffix,media-amazon.com,AmazonPrime
-host,atv-ps.amazon.com,AmazonPrime
-host,fls-na.amazon.com,AmazonPrime 
-# > Apple TV
-host,np-edge.itunes.apple.com,AppleTV
-host,play-edge.itunes.apple.com,AppleTV
-host-suffix,tv.apple.com,AppleTV 
-# Bahamut
-user-agent,Anime*,Bahamut
-host-suffix,bahamut.com.tw,Bahamut
-host-suffix,gamer.com.tw,Bahamut
-host,gamer-cds.cdn.hinet.net,Bahamut
-host,gamer2-cds.cdn.hinet.net,Bahamut 
-# BBC
-user-agent,BBC*,BBC
-user-agent,BBCBeacon*,BBC
-host-keyword,bbcfmt,BBC
-host-keyword,uk-live,BBC
-host-suffix,bbc.com,BBC
-host-suffix,bbc.co.uk,BBC
-host-suffix,bbci.co.uk,BBC
-host-suffix,vod-hls-uk-live.akamaized.net,BBC
- 
-# DAZN
-user-agent,DAZN*,DAZN
-host-suffix,d151l6v8er5bdm.cloudfront.net,DAZN
-host-suffix,d1sgwhnao7452x.cloudfront.net,DAZN
-host-suffix,dazn.com,DAZN
-host-suffix,dazn-api.com,DAZN
-host-suffix,dazndn.com,DAZN
-host-suffix,indazn.com,DAZN
-host-suffix,indaznlab.com,DAZN
-host-keyword,voddazn,DAZN
-host-keyword,livedazn,DAZN 
-# Deezer
-user-agent,Deezer*,Deezer
-host-suffix,deezer.com,Deezer
-host-suffix,dzcdn.net,Deezer 
-# > Disney Plus
-user-agent,Disney*,DisneyPlus
-user-agent,DPlus*,DisneyPlus
-host-keyword,disneyplus,DisneyPlus
-host-suffix,cdn.registerdisney.go.com,DisneyPlus
-host-suffix,cdn.cdn.unid.go.com,DisneyPlus
-host-suffix,content-ause1-ur-discovery1.uplynk.com,DisneyPlus
-host-suffix,disco-api.com,DisneyPlus
-host-suffix,discoveryplus.com,DisneyPlus
-host-suffix,disney.my.sentry.io,DisneyPlus
-host-suffix,adobedtm.com,DisneyPlus
-host-suffix,bamgrid.com,DisneyPlus
-host-suffix,bam.nr-data.net,DisneyPlus
-host-suffix,braze.com,DisneyPlus
-host-suffix,conviva.com,DisneyPlus
-host-suffix,cdn.optimizely.com,DisneyPlus
-host-suffix,cdn.registerdisney.go.com,DisneyPlus
-host-suffix,cws.conviva.com,DisneyPlus
-host-suffix,d9.flashtalking.com,DisneyPlus
-host-suffix,disney.demdex.net,DisneyPlus
-host-suffix,disneyplus.com,DisneyPlus
-host-suffix,disney-plus.net,DisneyPlus
-host-suffix,disneyplus.com.ssl.sc.omtrdc.net,DisneyPlus
-host-suffix,disney-portal.my.onetrust.com,DisneyPlus
-host-suffix,dssott.com,DisneyPlus
-host-suffix,execute-api.us-east-1.amazonaws.com,DisneyPlus
-host-suffix,fwmrm.net,DisneyPlus
-host-suffix,getblueshift.com,DisneyPlus
-host-suffix,litix.io,DisneyPlus
-host-suffix,mobile-collector.newrelic.com,DisneyPlus
-host-suffix,uplynk.com,DisneyPlus
-host-suffix,js-agent.newrelic.com,DisneyPlus 
-# Fox + (Now)
-user-agent,FOX%20NOW*,Fox
-user-agent,FOXPlus*,Fox
-host-keyword,foxplus,Fox
-host-suffix,dashasiafox.akamaized.net,Fox
-host-suffix,fox.com,Fox
-host-suffix,foxdcg.com,Fox
-host-suffix,foxplus.com,Fox
-host-suffix,staticasiafox.akamaized.net,Fox
-host-suffix,theplatform.com,Fox
-host-suffix,config.fox.com,Fox
-host-suffix,emome.net,Fox
-host-suffix,fox.com,Fox
-host-suffix,foxplay.com,Fox
-host-suffix,ipinfo.io,Fox
-host-suffix,mstage.io,Fox
-host-suffix,now.com,Fox
-host-suffix,theplatform.com,Fox
-host-suffix,urlload.net,Fox
- 
-# HBO NOW(GO)
-user-agent,HBO%20NOW*,HBO
-user-agent,HBOAsia*,HBO
-host,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,HBO
-host,bcbolthboa-a.akamaihd.net,HBO
-host,cf-images.ap-southeast-1.prod.boltdns.net,HBO
-host,dai3fd1oh325y.cloudfront.net,HBO
-host,s3-ap-southeast-1.amazonaws.com,HBO
-host,hboasia1-i.akamaihd.net,HBO
-host,hboasia2-i.akamaihd.net,HBO
-host,hboasia3-i.akamaihd.net,HBO
-host,hboasia4-i.akamaihd.net,HBO
-host,hboasia5-i.akamaihd.net,HBO
-host,players.brightcove.net,HBO
-host-suffix,bcbolthboa-a.akamaihd.net,HBO
-host-suffix,cf-images.ap-southeast-1.prod.boltdns.net,HBO
-host-suffix,execute-api.ap-southeast-1.amazonaws.com,HBO
-host-suffix,execute-api.us-east-1.amazonaws.com,HBO
-host-suffix,hbo.com,HBO
-host-suffix,hbogo.com,HBO
-host-suffix,hboasia.com,HBO
-host-suffix,hbogo.com,HBO
-host-suffix,hbomax.com,HBO
-host-suffix,hbomaxcdn.com,HBO
-host-suffix,hbonow.com,HBO
-host-suffix,hbogoasia.com,HBO
-host-suffix,hbogoasia.hk,HBO
-host-suffix,manifest.prod.boltdns.net,HBO
-host-suffix,s3-ap-southeast-1.amazonaws.com,HBO
- 
-# Hulu
-host-suffix,cws-hulu.conviva.com,Hulu
-host-suffix,hulu.com,Hulu
-host-suffix, 
